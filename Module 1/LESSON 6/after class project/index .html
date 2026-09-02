@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>Book donation form</title>
+</head>
+<body>
+    <h1><i>Book donation form</i></h1>
+    <p>Fill the following <i><mark>form</mark></i> to donate the books library</p>
+    <hr>
+
+
+    <form>
+        <fieldset>
+          <legend>Donors details</legend>
+          <input type="text" id="name" placeholder="enter your full name"><br>
+           
+          <label> Donation date</label><br>
+          <input type="data" id="Donation-date" placeholder="mm/dd/yyyy"><br>
+          <label>Doner Id</label><br>
+          <input   type="password" id="donor-id" placeholder="Enter your password here" >
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Book details</legend>
+            <label>Choose book category</label>
+            <select id="category"><br>
+            <option value="">-- Select a category --</option><br>
+            <option value="Fiction">Fiction</option>
+            <option value="science">Science</option>
+            <option value="adventurous">Adveturous</option>
+            <option value="education">Education</option>
+            </select><br>
+            <label>Book condition</label><br>
+            <input type="radio" name="condition" value="new">like new<br>
+            <input type="radio" name="codition" value="good">good<br>
+            <input type="radio" name="condition" value="slightly used"> slightly used<br>
+
+
+            <label>Book title or ADITIONAL NOTES</label><br>
+            <textarea id="notes" rows="3" cols="35" placeholder=".e.g book title auther name or any notes"></textarea><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Preffered drop off day</legend>
+            <input type="checkbox" value="mon">Monday<br>
+            <input type="checkbox" value="sat">Saturday<br>
+            <input type="checkbox" value="fri">Friday<br>
+
+        </fieldset>
+        <br>
+        <input type="submit"  value="Donate my book">
+
+
+
+
+
+
+    </form>
+
+
+    
+</body>
