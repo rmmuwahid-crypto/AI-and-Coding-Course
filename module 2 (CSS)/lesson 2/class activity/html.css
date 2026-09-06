@@ -1,0 +1,21 @@
+body{
+    background-image: linear-gradient(to right,black,white);
+}
+h1{
+    background-color:yellow;
+    text-align: center;}
+    p{background-color: white;
+    text-align: left;
+height: 30px;
+width: 1500px;
+animation:twinkle 1s infinite alternate;}
+@keyframes twinkle{
+    from {background-color:blue;}
+    to{background-color:white;}
+}
+ #data{
+    color: black; 
+}
+.to {
+    color: white;
+}
