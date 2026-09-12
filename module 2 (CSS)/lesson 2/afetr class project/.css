@@ -1,0 +1,19 @@
+h1 {
+    background-color: blue;
+    text-align: center;
+    border-radius: 30px;
+} 
+
+p {
+    background-color: brown;
+    border-radius: 30px;
+    text-align: center;
+    height: 150px;
+    width: 300px;
+    animation: Twinkle 1s infinite alternate;
+}
+
+@keyframes Twinkle {
+    from { background-color: brown; }
+    to { background-color:darkblue; }
+}
