@@ -1,0 +1,27 @@
+body{
+    background-color:cornflowerblue ;
+    text-align: center;
+}
+p::first-letter{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: chartreuse;
+    border-radius: 16px;
+    height: 100px;
+    width: 100px;
+}
+button:hover{
+    color: darkblue;
+    font-size: 18px;
+    background-color:aqua;
+}
+ul  li:nth-child(2){
+    background-color: darkcyan;
+    color: darkblue;
+}
+h3+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: navy;
+}
