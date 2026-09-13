@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(to right,rgb(10, 10, 113), rgb(85, 85, 210));
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    font-weight: bold;
+    font-size: 60px;
+    text-decoration: underline;
+    text-transform: lowercase;
+    transform: rotate(6 deg);
+}
+h2{
+   transform: rotate(6deg);
+}
+ul{
+    transform:rotate(6deg)
+}
+#data{
+    text-decoration: line-through;
+    transform:rotate(6deg)
+}
