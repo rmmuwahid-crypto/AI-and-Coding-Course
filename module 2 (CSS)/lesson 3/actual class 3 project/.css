@@ -7,15 +7,15 @@ p::first-letter{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 button{
-    background-color: chartreuse;
+    background-color:cornflowerblue;
     border-radius: 16px;
     height: 100px;
     width: 100px;
 }
 button:hover{
-    color: darkblue;
+    color:black;
     font-size: 18px;
-    background-color:aqua;
+    background-color:chocolate;
 }
 ul  li:nth-child(2){
     background-color: darkcyan;

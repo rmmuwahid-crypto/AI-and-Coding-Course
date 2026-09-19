@@ -1,0 +1,45 @@
+body{
+    background-color: blue;
+    background-image: url(cockroch\ janta.jpg);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+h1{
+    color:black;
+    font: size 36px;
+}
+p::first-letter{
+    font-size: 50 px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+button{
+    background-color:chartreuse;
+    border-radius: 14px;
+    height: 90px;
+    width: 100px;
+}
+button:hover{
+    color: blue;
+    font-size: 15px;
+    background-color:chocolate;
+}
+ul  li:nth-child(1){
+    background-color: powderblue;
+    color: black;
+}
+ul  li:nth-child(2){
+    background-color: aqua;
+    color: black;
+}
+ul  li:nth-child(3){
+    background-color: ghostwhite;
+    color: black;
+}
+ul  li:nth-child(4){
+    background-color: cornsilk;
+    color: black;
+}
+h3+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
