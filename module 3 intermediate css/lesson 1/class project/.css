@@ -1,0 +1,18 @@
+h1{
+    background-color: lawngreen;
+    color: indigo;
+    padding-left: 99px;
+    margin-left: 99px;
+    margin-right: 99px;
+    width: 650px;
+    border: 17px groove darkblue;
+    margin-top: 99px;
+}
+button{
+    background-color: lawngreen;
+    width: 99px;
+    height: 100px;
+    margin-top: 99px;
+    margin-left: 99px;
+    border: 20px groove darkslategray;
+}
