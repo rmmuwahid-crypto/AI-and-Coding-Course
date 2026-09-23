@@ -1,0 +1,18 @@
+h1{
+    background-color: chartreuse;
+    width: 180px;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 65px;
+    margin-left: 45px;
+    border: 20px groove darkblue;
+}
+button{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    color: darkslateblue;
+    border: 50px groove brown;
+}
