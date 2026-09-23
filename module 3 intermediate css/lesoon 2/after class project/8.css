@@ -1,0 +1,32 @@
+body{
+    background-color:blue;
+    background-image: linear-gradient(to right,blue,chartreuse);
+}
+#nav{
+    position: sticky;
+    display: flex;
+    padding: 10px;
+    top: 100;
+    gap: calc(20px);
+}
+#click{
+    position: static;
+    margin: 35px;
+    left: 35px;
+    padding: 20px;
+}
+#relate{
+    position: relative;
+    left: 20px;
+    padding: 30px;
+}
+#absolute{
+    position: sticky;
+    left: 100px;
+    padding: 40px;
+}
+#cinema{
+    position: absolute;
+    right: 70px;
+    padding: 60px;
+}
