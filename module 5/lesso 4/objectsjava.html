@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h2>object in javascript</h2>
+        <p id="name"></p>
+        <script>
+            var student= {
+                name: "Muhammad Muwahid",
+                grade:  "10th",
+                city : "multan",
+                codingal_id: "7836723456"
+            }
+            document.write("hello to object sin javascript")
+            document.write("<br>"+" student name is " + student.name)
+             document.write(student["grade"])
+             var nameE=  document.getElementbyId("name")
+             nameE.textContent= student.name
+        </script>
+    </body>
+</html>
